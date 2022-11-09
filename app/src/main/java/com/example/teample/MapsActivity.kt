@@ -42,7 +42,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
         // Add a marker in Sydney and move the camera
         val sydney = LatLng(35.88771683675761, 128.6107134570695)
-        mMap.addMarker(MarkerOptions().position(sydney).title("IT 4호관"))
+        mMap.addMarker(MarkerOptions().position(sydney).title(" 경북대 IT 4호관"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
     }
 }
